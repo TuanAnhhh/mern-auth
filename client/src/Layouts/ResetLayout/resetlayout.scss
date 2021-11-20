@@ -1,0 +1,9 @@
+@import "../../components/variables/variables.scss";
+
+p {
+  color: $yellow;
+  text-transform: capitalize;
+  &:hover {
+    cursor: pointer;
+  }
+}
